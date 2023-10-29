@@ -1,0 +1,112 @@
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1a1a1a;
+  background-image: linear-gradient(to bottom,rgba(23, 23, 215, 0.891),rgba(56, 6, 121, 0.73));
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.forma{
+  background-color: #e1e94d;
+  background-image: linear-gradient(to bottom,rgba(23, 23, 215, 0.489),rgba(56, 6, 121, 0.812));
+  width: 50vw;
+  height: auto;
+  color: #242424;
+  padding: 33px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+
+.todo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.todo>input{
+  outline: none;
+  background-color:#bec9cc;
+  border-radius: 10px;
+  padding: 4px 21px;
+}
+.todo>button{
+  background-color:rgb(240, 137, 19);
+  outline: none;
+  padding: auto;
+
+}
+.appdiv{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  margin: none;
+
+}
+.mapdiv{
+  list-style:none;
+  border-bottom: 1px solid rgb(26, 10, 10);
+  color:#040dc0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width:40vw;
+  display: flex;
+  padding: 2px 12px;
+  justify-content:space-between;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bolder;
+}
+.mapdiv>button{
+  background-color: orange;
+  padding:10px 20px;
+  outline: none;
+
+
+}
+.disp{
+  display: flex;
+  flex-direction: column;
+  background-color:#d6d6d6;
+  background-image: linear-gradient(to bottom,rgba(45, 213, 95, 0.622),rgba(29, 5, 62, 0.593));
+  padding-right: 50px;
+  margin-top: 10px;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height:auto;
+}
